@@ -64,8 +64,14 @@ a {
 
 #bg {
   background: linear-gradient(0deg, #75090f, #75090f),
-    linear-gradient(270.07deg, #f32e6c 15.46%, rgba(243, 47, 108, 0) 93.07%),
+    linear-gradient(0deg, #f32e6c 15.46%, rgba(243, 47, 108, 0) 93.07%),
     url(~/assets/raspberry-lace.gif);
   background-blend-mode: color, normal, normal;
+
+  @screen lg {
+    background: linear-gradient(0deg, #75090f, #75090f),
+      linear-gradient(270.07deg, #f32e6c 15.46%, rgba(243, 47, 108, 0) 93.07%),
+      url(~/assets/raspberry-lace.gif);
+  }
 }
 </style>
