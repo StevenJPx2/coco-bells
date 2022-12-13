@@ -1,13 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "nuxt-font-loader",
-    "@vueuse/nuxt",
-    "@nuxt/image-edge",
-    "nuxt-icon",
-    "nuxt-svg-transformer",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-font-loader", "nuxt-svg-transformer"],
 
   fontLoader: {
     external: [
