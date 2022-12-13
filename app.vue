@@ -9,10 +9,12 @@ const links = {
 
 <template>
   <div class="min-h-screen w-screen grid" id="bg">
-    <div class="container grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+    <div
+      class="container grid grid-rows-[min-content,auto] lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 items-center gap-8 overflow-hidden"
+    >
       <svg-icon
         name="logo"
-        class="w-96 col-start-1 !flex mx-auto justify-self-center"
+        class="w-3/4 lg:w-96 col-start-1 !flex mx-auto justify-self-center"
       />
       <div class="lg:col-start-2 text-white row-start-2 lg:row-start-1">
         <h1 class="font-rochester">Merry Christmas and happy sipping!</h1>
